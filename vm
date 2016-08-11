@@ -146,7 +146,7 @@ local vmid_list=""
 	{ f_error "Conflicting VM IDs: ${vmid_list}. Exiting" ; exit 1 ; }
 } # End f_check_vmid_conflicts
 
-f_check_vm_started() # $1 # Check if a given VM name is started under any containre
+f_check_vm_started() # $1 # Check if a given VM name is started under any container
 {
 	vmname="$1"
 
